@@ -1,60 +1,21 @@
-**BOILERPLATE
-**This is a boilerplate repo for creating new mern stack apps that doesn't sucks.
+MIT License
 
-This is minimalist boilerplate for Full Stack MERN developers (Recommended for beginners only). This boilerplate provides basic configurations like:
+Copyright (c) 2020 Gaurav Walia
 
-Sample CRUD API
-Create-react-app boilerplate
-NPM Scripts needed for MERN Stack
-Sample mongoose connection provided for connecting API with database like mongodb
-Heroku Deployment Configurations
-Available Scripts
-For APIs to work in development please add a .env file in root of the project and add your MONGODB_URI in that file.
+Permission is hereby granted, free of charge, to any person obtaining a copy
+of this software and associated documentation files (the "Software"), to deal
+in the Software without restriction, including without limitation the rights
+to use, copy, modify, merge, publish, distribute, sublicense, and/or sell
+copies of the Software, and to permit persons to whom the Software is
+furnished to do so, subject to the following conditions:
 
-yarn start
-Runs the server in the production mode.
-Open http://localhost:5000/api/v1/get to view sample CRUD API output from server in the browser.
+The above copyright notice and this permission notice shall be included in all
+copies or substantial portions of the Software.
 
-yarn run dev
-Runs the server in the development mode.
-Open http://localhost:5000/api/v1/get to view sample CRUD API output from server in the browser.
-
-The server will auto restart if you make any changes.
-
-yarn run client
-Runs the app in the development mode.
-Open http://localhost:3000 to view it in the browser.
-
-The page will reload if you make edits.
-You will also see any lint errors in the console.
-
-yarn run mern
-Runs the server and the client at the same time that makes MERN Stack development easier.
-
-Open http://localhost:5000/api/v1/get to view sample CRUD API output from server in the browser.
-
-Open http://localhost:3000 to view React App in the browser.
-
-Steps for Heroku Deployment
-Dependencies
-nodejs
-yarn package manager
-heroku cli
-Deployment Steps
-Check whether you have heroku installed in you PC or not using heroku --version command. If you don't have then you can install it from here.
-
-Create your account if you don't have any.
-
-Then open the terminal or cmd in root directory and make sure you have created a git repository for your project. Remove .git directory if present in client folder otherwise it may lead to deployment issues.
-
-All the heroku build deployment scripts are provided you can review and update the engine in root package.json if you want to deploy with any other version of node and yarn .
-
-Then login your heroku account using heroku login.
-
-After login its time to create a new app with you app name using heroku create <your unique app name>. If you get name already used then you have to choose any other unique name.
-
-Now open the heroku account in the browser, you will see your app is created. Then open the settings of the app and in the config vars add heroku variables like MONGODB_URI.
-
-For deployment run git push heroku master and it will deploy your app on heroku.
-
-LICENSE
+THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR
+IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY,
+FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE
+AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER
+LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,
+OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE
+SOFTWARE.
